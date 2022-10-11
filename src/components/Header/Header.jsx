@@ -26,6 +26,21 @@ const Header = () => {
                                 <li>
                                     <NavLink className='dropdown-item' to='/useEffect'>useEffect</NavLink>
                                 </li>
+                                <li>
+                                    <NavLink className='dropdown-item' to='/useMemo'>useMemo</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className='dropdown-item' to='/memo'>Memo (HOC)</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className='dropdown-item' to='/useCallback'>UseCallback</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className='dropdown-item' to='/useContext'>UseContext</NavLink>
+                                </li>
+                                <li>
+                                    <NavLink className='dropdown-item' to='/useRef'>useRef</NavLink>
+                                </li>
 
                             </ul>
                         </li>
